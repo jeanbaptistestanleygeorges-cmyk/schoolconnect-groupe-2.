@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SchoolConnect aide les élèves et les enseignants à organiser les informations scolaires.">
+  <title>SchoolConnect — Plateforme scolaire</title>
+  <style>
+    :root { color-scheme: light; --navy: #172554; --blue: #2563eb; --pale: #eff6ff; --ink: #1f2937; --muted: #64748b; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, sans-serif; background: #f8fafc; color: var(--ink); line-height: 1.6; }
+    header { background: var(--navy); color: white; padding: 18px 7vw; }
+    .brand { font-weight: 800; font-size: 1.25rem; letter-spacing: .2px; }
+    main { width: min(900px, 90%); margin: 54px auto; }
+    .hero { padding: clamp(28px, 6vw, 58px); border-radius: 24px; background: white; box-shadow: 0 14px 40px rgba(23,37,84,.08); }
+    .eyebrow { display: inline-block; background: var(--pale); color: var(--blue); padding: 5px 12px; border-radius: 999px; font-size: .88rem; font-weight: 700; }
+    h1 { color: var(--navy); font-size: clamp(2.2rem, 6vw, 3.8rem); line-height: 1.1; margin: 18px 0; }
+    .intro { font-size: 1.12rem; color: var(--muted); max-width: 650px; }
+    .feature { margin-top: 30px; padding: 20px 22px; background: var(--pale); border-left: 4px solid var(--blue); border-radius: 12px; }
+    .feature h2 { margin: 0 0 4px; font-size: 1.1rem; color: var(--navy); }
+    .feature p { margin: 0; }
+    footer { text-align: center; padding: 22px; color: var(--muted); font-size: .92rem; }
+  </style>
+</head>
+<body>
+  <header><div class="brand">SchoolConnect</div></header>
+  <main>
+    <section class="hero" aria-labelledby="schoolconnect-title">
+      <span class="eyebrow">Plateforme scolaire · Version 1.1</span>
+      <h1 id="schoolconnect-title">SchoolConnect</h1>
+      <p class="intro">Bienvenue sur notre plateforme scolaire. SchoolConnect aide les enseignants et les élèves à mieux organiser les informations scolaires.</p>
+      <section class="feature" aria-labelledby="homework-title">
+        <h2 id="homework-title">Espace devoirs</h2>
+        <p>Nouvelle fonctionnalité : espace devoirs bientôt disponible.</p>
+      </section>
+    </section>
+  </main>
+  <footer>SchoolConnect · Projet scolaire · Version 1.1</footer>
+</body>
+</html>
